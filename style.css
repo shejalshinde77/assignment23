@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.dice-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dice {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 20px;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.dot-1 {
+    top: 25px;
+    left: 25px;
+}
+
+.dot-2 {
+    top: 25px;
+    right: 25px;
+}
+
+.dot-3 {
+    bottom: 25px;
+    left: 25px;
+}
+
+.dot-4 {
+    bottom: 25px;
+    right: 25px;
+}
+
+.dot-5 {
+    top: 50px;
+    left: 50px;
+}
+
+.dot-6 {
+    bottom: 50px;
+    right: 50px;
+}
+
+#roll-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#roll-btn:hover {
+    background-color: #555;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
